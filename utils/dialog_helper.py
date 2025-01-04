@@ -10,7 +10,7 @@ def show_selection_dialog(title, items, disable_on_select_all=False):
     check_buttons = []
 
     if disable_on_select_all:
-        select_all_button = Gtk.CheckButton(label="Install All Gaming Flatpaks")
+        select_all_button = Gtk.CheckButton(label="Install All")
         box.add(select_all_button)
 
         def toggle_all_check_buttons(widget):
