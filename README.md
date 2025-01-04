@@ -1,17 +1,19 @@
-# Gnome App Launcher
+# Fedora 41 Post Install GUI for Gnome
 
-Gnome App Launcher is a simple and efficient application launcher for the Gnome desktop environment. It allows users to quickly search and launch applications with ease.
+Fedora 41 Post Install GUI for Gnome is a comprehensive tool for managing and installing packages on Fedora. It provides a graphical user interface to easily add repositories, update packages, and install various software packages including gaming flatpaks and NVIDIA drivers.
 
 ## Features
 
-- Fast and responsive application search
-- Clean and intuitive user interface
-- Customizable keyboard shortcuts
-- Lightweight and minimal resource usage
+- Add repositories with a simple dialog
+- Update DNF and Flatpak packages
+- Install DNF packages
+- Install Flatpak packages
+- Install Gaming Flatpaks
+- Install NVIDIA packages
 
 ## Installation
 
-To install Gnome App Launcher, follow these steps:
+To install Fedora 41 Post Install GUI for Gnome, follow these steps:
 
 1. Clone the repository:
     ```bash
