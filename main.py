@@ -9,6 +9,7 @@ from dialogs import (
     install_flatpak_packages,
     install_gaming_flatpak_packages,
     add_repositories,
+    install_media_codecs,
 )
 
 class InstallerWindow(Gtk.Window):
@@ -26,6 +27,7 @@ class InstallerWindow(Gtk.Window):
             ("Update Flatpaks", flatpak_update),
             ("Install DNF Packages", install_dnf_packages),
             ("Install NVIDIA Packages", install_nvidia_packages),
+            ("Install Media Codec Packages", install_media_codecs),
             ("Install Flatpaks", install_flatpak_packages),
             ("Install Gaming Flatpaks", install_gaming_flatpak_packages),
         ]
